@@ -1,0 +1,4 @@
+4.0K	./mediawiki_data/locks
+8.0K	./mwk
+6.6M	./mediawiki_data
+19M	.

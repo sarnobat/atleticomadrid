@@ -1,0 +1,27 @@
+<!-- 
+http://www.atleticomadridenglish.com/documentary/smil/version2/
+ -->
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN"
+                      "http://www.w3.org/2008/SMIL30/SMIL30Language.dtd">
+<smil xmlns="http://www.w3.org/ns/SMIL">
+  <head>
+    <layout>
+      <region xml:id="main" width="2040" height="270" z-index="1"/>
+      <region xml:id="title" width="200" height="43" left="36" top="26" z-index="2"/>
+      <region xml:id="textRegion" width="216" height="35" left="35" top="35" z-index="3"/>
+    </layout>
+  </head>
+  <body>
+    <par dur="200s">
+		<audio src="atletico_documentary_brief_history_2017-04-13.mp3" region="audio"/>		
+		<audio src="sky.mp3" clipBegin="10s" region="audio" soundLevel="30%" />
+
+		<img src="images/1960s/cente_72.JPG" begin="2s" dur="3s" region="main"/>
+		<img src="images/1960s/luis01.JPG" begin="6s" region="main"/>
+
+		<smilText begin="1s" dur="3s" region="textRegion" textColor="red" textFontSize="28">Atletico Madrid</smilText>
+		<smilText begin="6s" dur="3s" region="textRegion" textColor="red" textFontSize="28">Athletic Bilbao</smilText>
+    </par>
+  </body>
+</smil>

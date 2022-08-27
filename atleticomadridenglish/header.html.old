@@ -1,0 +1,24 @@
+<!-- Google Analytics - move this -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79498660-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<link rel="shortcut icon" href="http://www.clubatleticodemadrid.com/favicon.ico" type="image/x-icon" />
+<title>Atletico Madrid English</title>
+<style>
+//body {background-color: powderblue;}
+h1   {color: red;}
+h2   {color: blue;}
+p    {color: red;}
+body {	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; }
+
+</style>
+TODO: menubar?
+<h1>Atletico Madrid English</h1>
+<hr>
