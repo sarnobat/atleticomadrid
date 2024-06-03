@@ -11,15 +11,22 @@ gitGraph:
     branch Spain
     commit id: "1889 December 23 Recreativo Huelva founded"
     commit id: "1890 Sevilla founded"
+    branch Barcelona
     commit id: "1898 Barcelona founded"
     branch Bilbao
     commit id: "1898 July 18 Bilbao founded"
     checkout Bilbao
     checkout Spain
+    merge Barcelona
     merge Bilbao
+    commit id: "1902 Copa"
     commit id: "1903 Copa de la Coronacion" type: HIGHLIGHT
-    merge Bilbao
     commit
-    branch b2
-    commit
+    branch Atletico
+    checkout Atletico
+    commit id: "1908 Stripes vs Real"
+    checkout Spain
+    merge Atletico
+    merge Barcelona
+    commit id: "1921 Copa del Rey final"
 ```
