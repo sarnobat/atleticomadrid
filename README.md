@@ -8,14 +8,18 @@ gitGraph:
     commit id: "1847 Eton rules football published"
     commit id: "1863 October FA rules created"
     commit id: "1863 FA Founded in London"
+    branch Spain
     commit id: "1889 December 23 Recreativo Huelva founded"
+    commit id: "1890 Sevilla founded"
+    commit id: "1898 Barcelona founded"
     branch Bilbao
+    commit id: "1898 July 18 Bilbao founded"
     checkout Bilbao
-    commit id:"1903"
+    commit id: "1903"
     commit tag:"Copa de la Coronacion"
     checkout main
-    commit type: HIGHLIGHT
-    commit
+    commit id: "highlight"
+    commit type: HIGHLIGHT id: "highlight2"
     merge Bilbao
     commit
     branch b2
