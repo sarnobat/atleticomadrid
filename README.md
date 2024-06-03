@@ -6,14 +6,14 @@ raw digital assets
 ```mermaid
 gitGraph:
     commit "Ashish"
-    branch newbranch
-    checkout newbranch
+    branch Real
+    checkout Real
     commit id:"1111"
     commit tag:"test"
     checkout main
     commit type: HIGHLIGHT
     commit
-    merge newbranch
+    merge Real
     commit
     branch b2
     commit
