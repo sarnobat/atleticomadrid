@@ -15,9 +15,9 @@ gitGraph:
     branch Bilbao
     commit id: "1898 July 18 Bilbao founded"
     checkout Bilbao
-    commit id: "1903"
-    commit tag:"Copa de la Coronacion"
     checkout main
+    merge Bilbao
+    commit id: "1903 Copa de la Coronacion" type: HIGHLIGHT
     commit id: "highlight"
     commit type: HIGHLIGHT id: "highlight2"
     merge Bilbao
