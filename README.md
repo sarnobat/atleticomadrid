@@ -21,7 +21,7 @@ gitGraph:
     merge Bilbao
     commit id: "1902 Copa"
     commit id: "1903 Copa de la Coronacion" type: HIGHLIGHT
-    commit
+    commit id: "Attended by Bilbao students in Madrid"
     branch Atletico
     checkout Atletico
     commit id: "1908 Stripes vs Real"
