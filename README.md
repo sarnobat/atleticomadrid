@@ -6,14 +6,14 @@ raw digital assets
 ```mermaid
 gitGraph:
     commit "Ashish"
-    branch Real
-    checkout Real
-    commit id:"1111"
-    commit tag:"test"
+    branch Bilbao
+    checkout Bilbao
+    commit id:"1903"
+    commit tag:"Copa de la Coronacion"
     checkout main
     commit type: HIGHLIGHT
     commit
-    merge Real
+    merge Bilbao
     commit
     branch b2
     commit
