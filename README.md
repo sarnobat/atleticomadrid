@@ -15,9 +15,14 @@ gitGraph:
     commit id: "1898 Barcelona founded"
     branch Bilbao
     commit id: "1898 July 18 Bilbao founded"
+    branch Madrid
+    commit "club 1 founded"
+    commit "club 2 founded"
+    commit "1902 merged clubs"
     checkout Bilbao
     checkout Spain
     merge Barcelona
+    merge Madrid
     merge Bilbao
     commit id: "1902 Copa"
     commit id: "1903 Copa de la Coronacion" type: HIGHLIGHT
