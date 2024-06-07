@@ -35,3 +35,5 @@ gitGraph:
     merge Barcelona
     commit id: "1921 Copa del Rey final"
 ```
+
+Only use tracks for longitudinal entities. Parma wouldn't have much for example (though it would be good to explain their sudden rise from obscurity).
